@@ -1,0 +1,38 @@
+/* data: 28/02/2023 */
+
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal { width: 370px; box-sizing: border-box; }
+
+#titulo {
+    background-color: blue;
+    padding: 6px 0;
+    color: #fff;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#mostradores {
+    background-color: cornflowerblue;
+    margin-top: 2px;
+    padding: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+label { font-weight: bold; }
+
+.mostrador__separador { font-weight: bold; }   
